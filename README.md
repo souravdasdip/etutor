@@ -2,7 +2,7 @@
 
 Install dependencies with
 ```bash
-"npm i"
+npm i
 ```
 and run the development server:
 ```bash
