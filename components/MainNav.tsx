@@ -1,3 +1,6 @@
+"use client";
+import { useAppSelector } from "@/redux";
+import { CourseProps } from "@/types";
 import { HeartOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import { Badge } from "antd";
 import Image from "next/image";
@@ -7,6 +10,8 @@ import CustomButton from "./CustomButton";
 import Selector from "./Selector";
 
 function MainNav() {
+  const cart: CourseProps[] = useAppSelector((state) => state.cart);
+
   return (
     <div
       style={{
@@ -34,7 +39,7 @@ function MainNav() {
 
       <div style={{ display: "flex", gap: 25, alignItems: "center" }}>
         <div style={{ cursor: "pointer" }}>
-          <Badge size="small" count={5}>
+          <Badge size="small" count={cart.length}>
             <ShoppingCartOutlined />
           </Badge>
         </div>
