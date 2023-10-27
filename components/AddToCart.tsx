@@ -40,8 +40,8 @@ const AddToCart = ({
   return (
     <div
       style={{
-        width: "30vw",
-        height: "90vh",
+        width: "400px",
+        height: "620px",
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
@@ -94,7 +94,7 @@ const AddToCart = ({
           </div>
           <div
             style={{
-              width: 384,
+              width: "100%",
               color: "#1D2026",
               fontSize: 18,
 
@@ -106,7 +106,7 @@ const AddToCart = ({
         </div>
         <div
           style={{
-            width: "30vw",
+            width: "100%",
             paddingLeft: 20,
             paddingRight: 20,
             justifyContent: "space-between",
@@ -199,7 +199,7 @@ const AddToCart = ({
       </div>
       <div
         style={{
-          width: "30vw",
+          width: "100%",
           paddingLeft: 20,
           paddingRight: 20,
           justifyContent: "space-between",
@@ -293,7 +293,7 @@ const AddToCart = ({
       </div>
       <div
         style={{
-          width: 384,
+          width: "90%",
           justifyContent: "space-between",
           alignItems: "center",
           display: "inline-flex",
@@ -356,7 +356,7 @@ const AddToCart = ({
       >
         <div
           style={{
-            width: 384,
+            width: "100%",
             color: "#1D2026",
             fontSize: 12,
             fontWeight: "500",
@@ -376,7 +376,7 @@ const AddToCart = ({
           <CheckOutlined style={{ color: "#23BD33" }} />
           <div
             style={{
-              width: 352,
+              width: "100%",
               color: "#6E7485",
               fontSize: 14,
 
@@ -398,7 +398,7 @@ const AddToCart = ({
           <CheckOutlined style={{ color: "#23BD33" }} />
           <div
             style={{
-              width: 352,
+              width: "100%",
               color: "#6E7485",
               fontSize: 14,
 
@@ -419,7 +419,7 @@ const AddToCart = ({
           <CheckOutlined style={{ color: "#23BD33" }} />
           <div
             style={{
-              width: 352,
+              width: "100%",
               color: "#6E7485",
               fontSize: 14,
 
